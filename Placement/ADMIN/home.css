@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rebeccapurple; */
+}
+li{
+ list-style: none;
+ font-family: 'Inter', sans-serif;
+}
+.logo{
+    width: 10%;
+    /* background-color: antiquewhite; */
+}
+
+.toplogo{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   /* background-color: yellow */
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1,h4{
+    font-family: 'Poppins', sans-serif;
+}
+.user{
+    /* background-color: rebeccapurple; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.karpagam{
+    height: 350px;
+    width: 100%;
+    background-color:#2C3532;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kapragam-img{
+ position: absolute;
+ width: 100%;
+ opacity: 70%;
+}
+.kimg{
+    height: 350px;
+    width: 100%;
+}
+.k-content{
+    position:absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: white; */
+    width: 60%;
+    /* opacity: 100%; */
+    /* color:rebeccapurple; */
+}
+.k-content h1{
+    font-size: 5Rem;
+    color: #D2E9E3;
+}
+.con>h1{
+    margin-left:3%;
+    font-size: 3rem;
+    color: white;
+}
+.con{
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #2C3532;
+}
+.subcon{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 0px 60px 60px 60px;
+    color: white;
+    /* background-color: aqua; */
+}
+textarea{
+    padding: 30px;
+    border-radius: 30px;
+}
+input{
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background-color: #D2E9E3;
+    margin-left: 40%;
+    height: 60px;
+    width: 10%;
+}
+.over,.test{
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .................Function bar........... */
+.vr{
+    border-left: 5px solid #D2E9E3;
+    height: 50px;
+}
